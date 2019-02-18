@@ -1,0 +1,48 @@
+<!-- Left Sidebar - style you can find in sidebar.scss  -->
+<!-- ============================================================== -->
+<aside class="left-sidebar">
+    <!-- Sidebar scroll-->
+    <div class="scroll-sidebar">
+        <!-- Sidebar navigation-->
+        <nav class="sidebar-nav">
+            <ul id="sidebarnav">
+                <li class="user-profile">
+                    <a class="has-arrow waves-effect waves-dark" aria-expanded="false">
+                       <img src="../assets/images/icono.jpg" alt="user" /><span class="hide-menu"> Mulatta </span>
+                    </a>
+                    <ul aria-expanded="false" class="collapse">
+                        <li><a href="javascript:void()"> Mi perfil </a></li>
+                        <li><a href="javascript:void()">Inbox</a></li>
+                        <li><a routerLinkActive="active" routerLink="/Account-settings" >Ajustes</a></li>
+                        <!-- <li><a (click)="_usuarioService.logout()" class="pointer">Logout</a></li> -->
+                    </ul>
+                </li>
+
+                <li class="nav-devider"></li>
+                <li class="nav-small-cap">PERSONAL</li>
+
+                <li> 
+                    <a class="has-arrow waves-effect waves-dark" href="#" aria-expanded="flase">
+                        <i [class]=""></i>
+                            <span class="hide-menu"> Titulo menu 
+                                <span class="label label-rouded label-themecolor pull-right"> submenu </span>
+                            </span>
+                    </a>
+
+                    <ul aria-expanded="false" class="collapse">
+                        <li >
+                            <a  routerLinkActive="active" > </a>
+                        </li>
+                
+                    </ul>
+                </li>
+               
+            </ul>
+        </nav>
+        <!-- End Sidebar navigation -->
+    </div>
+    <!-- End Sidebar scroll-->
+</aside>
+<!-- ============================================================== -->
+<!-- End Left Sidebar - style you can find in sidebar.scss  -->
+<!-- ============================================================== -->
